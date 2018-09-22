@@ -8,9 +8,10 @@ public class verifyLogin {
 public static void main(String[] args) {
 	WebDriver driver = new FirefoxDriver();
 	driver.get("https://www.facebook.com/");
-	driver.findElement(By.id("email")).sendKeys("Lavanya.xyz.com");
+	driver.findElement(By.id("email")).sendKeys("Sameera.xyz.com");
 	driver.findElement(By.id("pass")).sendKeys("Password");
 	driver.findElement(By.id("u_0_n")).click();
+	
 	
 }
 }
